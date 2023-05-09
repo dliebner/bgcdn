@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# -e: Exit immediately if any command exits with a non-zero status
+# -x: Print each command before it's executed
+set -ex
+
 # init local files
 mkdir -p ../local
 mkdir -p ../logs
