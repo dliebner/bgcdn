@@ -182,7 +182,7 @@ chown -R bgcdn:bgcdn /home/bgcdn
 
 # install composer extensions
 cd /home/bgcdn
-su bgcdn -c "composer require gabrielelana/byte-units guzzlehttp/guzzle:^7"
+su bgcdn -c "composer require gabrielelana/byte-units guzzlehttp/guzzle:^6.5"
 # flexihash/flexihash is used on the hub server, don't think we need it here
 # obregonco/backblaze-b2 - the original b2 repo we forked from
 su bgcdn -c "composer config repositories.backblaze-b2 vcs https://github.com/dliebner/backblaze-b2"
