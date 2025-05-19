@@ -2018,6 +2018,11 @@ class TranscodingJob {
 
 					return $progress;
 
+				} else {
+
+					// out_time_us=0
+					return 0;
+
 				}
 
 			}
